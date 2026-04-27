@@ -31,7 +31,7 @@ python solver_template/main.py data/example_instance.json output_solution.json
 
 ## Input format
 
-Input instances are JSON files. The full instance format is described in [`data/README.md`](data/README.md).
+Input instances are JSON files. The full instance format is described in [`cvrp/data/README.md`](cvrp/data/README.md).
 
 ## Solution format
 
