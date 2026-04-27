@@ -37,6 +37,10 @@ Input instances are JSON files. The full instance format is described in [`cvrp/
 
 The solver produce a single JSON file containing one solution. The solution is a list of ``NumberOfVehicles`` routes (including empty routes). Each route is represented as an ordered list of location IDs. The lists start and end with a visit to the depot (location ID 0).
 
+## Requirements
+
+The solver uses only the Python standard library. No additional packages are required.
+
 ## Additional experimental components
 
 Besides the default solver pipeline, the code also contains alternative components that were tested during development:
