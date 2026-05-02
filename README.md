@@ -15,19 +15,19 @@ The default solver pipeline is:
 ## Repository structure
 
 ```text
-data/
-    Example input instances.
-
-solver_template/
-    Python implementation of the CVRP solver.
-
-README.md
-    Project documentation.
-
+.
+├── README.md                  # main project documentation
+├── .gitignore
+├── data/
+│   ├── README.md              # input data format description
+│   └── instances/             # CVRP input instances
+└── solver/
+    ├── README.md              # solver-specific notes
+    └── main.py                # main CVRP solver implementation
 ```
-## Usage
-python solver_template/main.py data/example_instance.json output_solution.json
 
+## Usage
+python solver/main.py data/instances/example_instance.json output_solution.json
 
 ## Input format
 
