@@ -22,7 +22,7 @@ The default solver pipeline is:
 │   ├── README.md              # input data format description
 │   └── instances/             # CVRP input instances
 └── solver/
-    ├── README.md              # solver-specific notes
+    ├── README.md              
     └── main.py                # main CVRP solver implementation
 ```
 
